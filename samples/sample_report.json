@@ -1,0 +1,113 @@
+{
+  "article_title": "Japan's GDP Growth Surpasses Expectations in Q4 2025",
+  "article_url": "https://example.com/news/japan-gdp-q4-2025",
+  "overall_score": 72,
+  "summary": "Analyzed 5 factual claim(s) from the article. 2 claim(s) were verified by multiple sources. 1 claim(s) are likely true based on available evidence. 1 claim(s) have conflicting evidence. 1 claim(s) could not be verified.",
+  "statistics": {
+    "total_claims": 5,
+    "verified": 3,
+    "disputed": 1,
+    "false": 0,
+    "unverified": 1
+  },
+  "concerns": [
+    "Claim #4 (DISPUTED): Japan's semiconductor exports grew 45% year-over-year in 2025"
+  ],
+  "claims": [
+    {
+      "text": "Japan's GDP grew 2.1% in Q4 2025",
+      "original_sentence": "The Japanese economy posted a 2.1% growth rate in the fourth quarter of 2025, according to preliminary government data.",
+      "verdict": "VERIFIED",
+      "confidence_score": 92,
+      "explanation": "Multiple official sources including the Cabinet Office confirm Japan's Q4 2025 GDP growth at 2.1%, matching the article's claim exactly.",
+      "sources": [
+        {
+          "title": "Japan GDP Growth Rate - Cabinet Office",
+          "url": "https://www.esri.cao.go.jp/en/sna/data.html",
+          "snippet": "Preliminary Q4 2025 GDP growth: 2.1% (annualized)",
+          "supports_claim": true
+        },
+        {
+          "title": "Japan economy grows faster than expected - Reuters",
+          "url": "https://www.reuters.com/markets/asia/japan-gdp-2025-q4",
+          "snippet": "Japan's GDP expanded 2.1% in Q4 2025, beating analyst forecasts of 1.8%",
+          "supports_claim": true
+        }
+      ],
+      "contradictions": []
+    },
+    {
+      "text": "The Bank of Japan maintained its interest rate at 0.5% throughout 2025",
+      "original_sentence": "The central bank held rates steady at 0.5% for the entire year, providing a stable monetary environment.",
+      "verdict": "VERIFIED",
+      "confidence_score": 88,
+      "explanation": "BOJ meeting minutes and official statements confirm the policy rate was maintained at 0.5% throughout 2025.",
+      "sources": [
+        {
+          "title": "BOJ Monetary Policy Meetings 2025 - Bank of Japan",
+          "url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+          "snippet": "Policy rate decisions for 2025: maintained at 0.50%",
+          "supports_claim": true
+        }
+      ],
+      "contradictions": []
+    },
+    {
+      "text": "Consumer spending in Japan increased by 3.2% in the second half of 2025",
+      "original_sentence": "Robust consumer spending, up 3.2% in H2, drove much of the growth.",
+      "verdict": "LIKELY_TRUE",
+      "confidence_score": 65,
+      "explanation": "Government statistics show consumer spending growth in H2 2025, though exact figures vary between 2.9% and 3.4% depending on the measure used.",
+      "sources": [
+        {
+          "title": "Household Spending Survey - Statistics Bureau",
+          "url": "https://www.stat.go.jp/english/data/kakei/index.html",
+          "snippet": "Household spending rose approximately 3% in the latter half of 2025",
+          "supports_claim": true
+        }
+      ],
+      "contradictions": []
+    },
+    {
+      "text": "Japan's semiconductor exports grew 45% year-over-year in 2025",
+      "original_sentence": "The semiconductor sector was a particular bright spot, with exports surging 45% compared to the previous year.",
+      "verdict": "DISPUTED",
+      "confidence_score": 35,
+      "explanation": "While semiconductor exports did grow significantly, the 45% figure is higher than most official trade statistics suggest. JETRO data indicates growth closer to 28-32%.",
+      "sources": [
+        {
+          "title": "Japan Trade Statistics - JETRO",
+          "url": "https://www.jetro.go.jp/en/reports/statistics.html",
+          "snippet": "Semiconductor and related equipment exports grew approximately 30% in 2025",
+          "supports_claim": false
+        },
+        {
+          "title": "Asia Semiconductor Market Report 2025",
+          "url": "https://example.com/reports/asia-semiconductor-2025",
+          "snippet": "Japan semiconductor exports showed strong growth of 28-35% depending on category",
+          "supports_claim": null
+        }
+      ],
+      "contradictions": [
+        "JETRO reports 30% growth vs article's claim of 45%",
+        "Industry reports suggest 28-35% range, not 45%"
+      ]
+    },
+    {
+      "text": "Toyota announced plans to invest 5 trillion yen in EV production by 2030",
+      "original_sentence": "Major corporate investments, including Toyota's 5 trillion yen EV commitment through 2030, signal continued confidence.",
+      "verdict": "UNVERIFIED",
+      "confidence_score": 45,
+      "explanation": "While Toyota has announced significant EV investments, the specific 5 trillion yen figure and 2030 timeline could not be confirmed from recent official announcements.",
+      "sources": [
+        {
+          "title": "Toyota EV Strategy Update",
+          "url": "https://global.toyota/en/newsroom/",
+          "snippet": "Toyota announced multi-trillion yen investment plans for electrification",
+          "supports_claim": null
+        }
+      ],
+      "contradictions": []
+    }
+  ]
+}
